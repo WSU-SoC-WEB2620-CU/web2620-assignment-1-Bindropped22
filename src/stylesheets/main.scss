@@ -1,1 +1,119 @@
-// Your styles go here
+body{
+    background-color: lightsalmon;
+}
+
+//Search styles
+.search{
+    float: right;
+    
+}
+//Nav styles
+#nav-menu{
+    background-color: bisque;
+    width: 100%;
+}
+
+#nav-menu li{
+    float: left;
+    display: inline;
+    border: 3px dotted lightblue;
+    background-color: bisque;
+    width: 18%;
+    text-align: center;
+}
+
+//Author info style
+.author-info{
+    font-size: 12px;
+}
+
+//post styles
+.post{
+    border: 3px solid lightblue;
+    background-color: beige;
+    padding: 30px;
+    margin: 30px;
+}
+
+.p1{
+    padding-bottom:20px;
+}
+
+//h styles
+h4{
+    text-decoration: underline; 
+}
+
+
+//bottom nav styles
+.bottom-nav{
+    padding-top: 20px;
+    text-align: center;
+}
+a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+  }
+  
+  a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .previous {
+    background-color: lightblue;
+    color: black;
+  }
+  
+  .next {
+    background-color: lightblue;
+    color: black;
+  }
+  
+  .round {
+    border-radius: 50%;
+  }
+
+  //footer styles
+  .socials{
+    float: left;
+    background-color: lightblue;
+  }
+  .copyright{
+    float: right;
+    background-color: lightblue;
+  }
+  //image styles
+  img{
+    width: 25%;
+    float: left;
+    border-radius: 15px;
+    margin: 10px;
+  }
+
+  /* Phone screen format*/
+  @media screen and (max-width: 575px) {
+    
+    #nav-menu li {
+        float: none;
+        width: 100%;
+    }
+
+    /* Use of hamburger menu and/or align text differently*/
+    #nav-menu li a {
+        text-align: center;
+    }
+
+    /* post anf images styles */
+    .post {
+        padding: 20px;
+        margin: 20px;
+    }
+
+    img {
+        width: 100%;
+        float: none;
+        margin: 10px auto;
+    }
+}
